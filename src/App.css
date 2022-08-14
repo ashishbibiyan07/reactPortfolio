@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Concert+One&family=Cormorant+SC:wght@300&family=Indie+Flower&family=Josefin+Sans:wght@100&family=Lobster&family=Oswald&family=Permanent+Marker&family=Rubik+Moonrocks&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  /* background-color: rgb(159, 161, 160); */
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+.navlist{
+  margin-left: auto;
+}
+.active{
+  
+  font-weight: bold;
+  color: rgb(151, 70, 232) !important;
+  border-bottom: 2px solid red;
+}
+
+.navbar{
+  background-color: #fff !important;
+
+}
+
+.company,.navbar-brand{
+  color: rgb(255, 128, 0) !important;
+  font-size: 2.4rem;
+  border-bottom: 2px solid #fff;
+
+}
+.nav-item a{
+  font-size: 1.3rem;
+  margin: 10px;
+  text-transform: capitalize;
+}
+.navbar-nav .nav-item a:hover{
+  color: rgb(151, 70, 232);
+}
+
+
+/* home */
+#header{
+  width: 100%;
+  margin-top: 28px;
+  height: 80vh;
+}
+#header h1{
+  margin: 0px 0px 10px 0px;
+}
+#header p{
+  padding: 12px;
+  font-size: 18px;
+}
+#header .brand{
+  color: rgba(11, 237, 132, 0.729) !important;
+}
+.btn-get-started{
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: transparent;
+    transition: 0.4s ease-out;
+    box-shadow: 2px 1px 2px 1px rgb(55, 55, 55);
+
+}
+.btn-get-started:hover{
+  background-color: rgba(24, 255, 167, 0.843);
+}
+.btn-get-started a{
+  text-decoration: none;
+  color: rgb(221, 85, 85);
+  font-size: 16px;
+  font-weight: 400;
+  /* color: #fff; */
+  
+}
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+  0%{
+   transform: translateY(10px);
+  }
+  100%{
+    transform:translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0%{
+    transform: translateY(12px);
+   }
+   100%{
+     transform:translateY(-12px);
+   }
+}
+/* services */
+.services-container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.btn-outline-info{
+  color: rgb(31, 29, 29);
+}
